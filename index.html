@@ -2,7 +2,7 @@
 <html lang="en" ng-app="app">
 <head>
   <meta charset="UTF-8">
-  <title>Gulp Demo</title>
+  <title>Simple Chat</title>
 <!-- bower:css -->
 <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="bower_components/ng-sortable/dist/ng-sortable.css" />
@@ -16,7 +16,8 @@
 
 <body>
 <div class="container">
-	<h1>Molestemon</h1>
+	<div ng-include="'app/templates/navbar.html'"></div>
+	<h1>Simple Chat</h1>
 
 
 	<ui-view></ui-view>
